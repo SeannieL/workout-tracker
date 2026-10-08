@@ -1,8 +1,7 @@
 import express from 'express';
 import dotenv from "dotenv";
 
-let test = dotenv.config()
-console.log(test)
+dotenv.config()
 
 const app = express();
 const port = process.env.PORT
